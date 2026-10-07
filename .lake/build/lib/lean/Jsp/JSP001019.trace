@@ -1,0 +1,23 @@
+{"log":
+ [{"message":
+   ".> LEAN_PATH=C:\\work\\jsp-000493-lean\\.lake\\build\\lib\\lean c:\\Users\\Administrator\\.elan\\toolchains\\leanprover--lean4---v4.20.0\\bin\\lean.exe C:\\work\\jsp-000493-lean\\Jsp\\JSP001019.lean -R C:\\work\\jsp-000493-lean -o C:\\work\\jsp-000493-lean\\.lake\\build\\lib\\lean\\Jsp\\JSP001019.olean -i C:\\work\\jsp-000493-lean\\.lake\\build\\lib\\lean\\Jsp\\JSP001019.ilean -c C:\\work\\jsp-000493-lean\\.lake\\build\\ir\\Jsp\\JSP001019.c --json",
+   "level": "trace"},
+  {"message":
+   "C:\\work\\jsp-000493-lean\\Jsp\\JSP001019.lean:47:0: 'main' does not depend on any axioms",
+   "level": "info"}],
+ "inputs":
+ [["Jsp.JSP001019:deps",
+   [["deps",
+     [["«jsp-001019-lean»/Jsp:extraDep",
+       [["@«jsp-001019-lean»:extraDep", "1723"]]],
+      ["import oleans", "1723"]]],
+    ["libs",
+     [["import dynlibs", "1723"],
+      ["package external libraries", "1723"],
+      ["module dynlibs", "1723"],
+      ["module plugins", "1723"]]]]],
+  ["Lean 4.20.0, commit 77cfc4d1a4f6ef6651792b781eaa6676b4f3f060",
+   "16311077432335102250"],
+  ["Module.leanArgs: #[]", "1723"],
+  ["C:\\work\\jsp-000493-lean\\Jsp\\JSP001019.lean", "3409065353620176864"]],
+ "depHash": "7788385174681568491"}
